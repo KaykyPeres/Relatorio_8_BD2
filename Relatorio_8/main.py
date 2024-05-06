@@ -27,8 +27,8 @@ Match_db.insert_Player_Partida("DuDu", "2")
 Match_db.insert_Player_Partida("EDu", "3")
 
 # Deletando um player e uma partida
-Match_db.delete_aluno("EDu")
-Match_db.delete_aula("3")
+Match_db.delete_Player("EDu")
+Match_db.delete_Player("3")
 
 # Imprimindo todas as informações do banco de dados
 print("Players:")
